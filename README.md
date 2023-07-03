@@ -1,2 +1,4 @@
 # PROJETO-2023
-Atividade de Montagem em NX
+O projeto é um autômato de manivela
+
+Composto por 4 partes que funcionam individualmente
