@@ -36,3 +36,8 @@ Os problemas da simulação são:
 	- [] Contact 3d entre o braço e o tronco leva muito tempo no solve
 	- [] Contact 3d entre o braço e o tronco não encaixa corretamente
 	- [] [BUG] Por algum motivo, na segunda "hélice" da engrenagem o personagem cai mais que o esperado
+# O que falta fazer
+- [X] Vista ortográfica da mesa
+- [] Colocar todos juntos na prancha de corte 
+- [X] Juntar todos os projetos mesma mesa (Poucas constraints)
+- [] Remover os drivers da simulação e fazer o "Bond, not the James" com o eixo_m8

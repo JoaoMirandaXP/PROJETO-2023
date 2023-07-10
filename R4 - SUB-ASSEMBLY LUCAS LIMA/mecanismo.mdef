@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Simcenter3DMotion BuildVersion="" Version="1980.000000">
+
+  <MasterPart File="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\MONTAGEM-R4-SIM.prt"/>
+
+  <Settings>
+    <AnalysisType Type="Dynamics"/>
+    <UnitSet Type="Millimeters"/>
+    <AngularUnits Type="Radians"/>
+    <PositionAndOrientation Type="TransformationMatrix"/>
+  </Settings>
+
+  <MotionPreferences>
+    <NameDisplay Value="true"/>
+    <ShowThroughDisplay Value="false"/>
+    <IconScale Value="1.00000000000000000000e+00"/>
+    <AngularUnits Type="Degrees"/>
+    <MassProperties Value="true"/>
+    <OutputSplineResult Value="false"/>
+    <ContactMethod Type="Faceted"/>
+    <FacetedContactTolerance Value="30"/>
+    <IfFunctionTolerance Value="1.00000000000000002092e-08"/>
+    <ResultsFileOverwrittenWarning Value="false"/>
+    <TraceExplosionToMaster Value="false"/>
+    <SequenceToMotion Value="false"/>
+    <AnimationLegend Value="true"/>
+    <DisplayObjectIconInAnimation Value="true"/>
+    <AutoUpdateResultsMeasure Value="true"/>
+    <UseAbsMinMaxValuesFlexBody Value="false"/>
+    <CreateGraphForPlotAndOverlay Value="false"/>
+    <StopEventTolerance Value="1.00000000000000002082e-03"/>
+    <ResultDisplayIconScale Value="1.00000000000000000000e+00"/>
+    <ResultDisplayDecimalFormat Type="Automatic"/>
+    <ResultsDisplayTolerance Value="9.99999999999999954748e-07"/>
+    <GetMissingPointT0 Value="true"/>
+    <AbortPostOnInfinityValue Value="true"/>
+    <UnitPolicy Type="ApplyUnits"/>
+  </MotionPreferences>
+
+  <MotionBodies>
+    <MotionBody Name="B001">
+      <MotionBodyObjects>
+        <Component FileId="56" Id="0" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\engrenagemextrudada.prt"/>
+      </MotionBodyObjects>
+      <MassPropertiesOption Value="Automatic"/>
+      <MassAndInertia>
+        <TransformationMatrix>
+          <Origin>
+            <X Unit="mm" Value="6.86690848400000106722e+01"/>
+            <Y Unit="mm" Value="6.92950000000000011259e-04"/>
+            <Z Unit="mm" Value="-6.25074349299999951768e+01"/>
+          </Origin>
+          <X-Axis>
+            <X Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="0.00000000000000000000e+00"/>
+          </X-Axis>
+          <Y-Axis>
+            <X Unit="mm" Value="-0.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="3.75554956820477570112e-01"/>
+            <Z Unit="mm" Value="9.26800126460699869035e-01"/>
+          </Y-Axis>
+          <Z-Axis>
+            <X Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="-9.26800126460699869035e-01"/>
+            <Z Unit="mm" Value="3.75554956820477570112e-01"/>
+          </Z-Axis>
+        </TransformationMatrix>
+        <Mass Unit="kg" Value="2.02853042399999995704e-02"/>
+        <Ixx Unit="kg-mm^2" Value="1.77431000000000005379e+00"/>
+        <Iyy Unit="kg-mm^2" Value="1.05716999999999994309e+00"/>
+        <Izz Unit="kg-mm^2" Value="1.05522000000000004682e+00"/>
+        <Ixy Unit="kg-mm^2" Value="0.00000000000000000000e+00"/>
+        <Ixz Unit="kg-mm^2" Value="0.00000000000000000000e+00"/>
+        <Iyz Unit="kg-mm^2" Value="0.00000000000000000000e+00"/>
+      </MassAndInertia>
+      <FixedWithoutJoint Value="false"/>
+    </MotionBody>
+    <MotionBody Name="B002">
+      <MotionBodyObjects>
+        <Component FileId="55" Id="0" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\alavancarapida.prt"/>
+        <Component FileId="53" Id="0" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\personagemrapido.prt"/>
+        <Component FileId="52" Id="0" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\braço fixo.prt"/>
+        <Component FileId="49" Id="0" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\pote.prt"/>
+      </MotionBodyObjects>
+      <MassPropertiesOption Value="Automatic"/>
+      <MassAndInertia>
+        <TransformationMatrix>
+          <Origin>
+            <X Unit="mm" Value="7.05537159299999956374e+01"/>
+            <Y Unit="mm" Value="1.26871146499999998269e+01"/>
+            <Z Unit="mm" Value="2.13124620799999995313e+01"/>
+          </Origin>
+          <X-Axis>
+            <X Unit="mm" Value="-5.60800351814019104602e-01"/>
+            <Y Unit="mm" Value="8.27686417777349525693e-01"/>
+            <Z Unit="mm" Value="2.09322533944940950001e-02"/>
+          </X-Axis>
+          <Y-Axis>
+            <X Unit="mm" Value="8.27578391433839932745e-01"/>
+            <Y Unit="mm" Value="5.61127224587123940580e-01"/>
+            <Z Unit="mm" Value="-1.58190979176910176407e-02"/>
+          </Y-Axis>
+          <Z-Axis>
+            <X Unit="mm" Value="-2.48389097395696825665e-02"/>
+            <Y Unit="mm" Value="8.45172491567941670809e-03"/>
+            <Z Unit="mm" Value="-9.99655739196699255622e-01"/>
+          </Z-Axis>
+        </TransformationMatrix>
+        <Mass Unit="kg" Value="1.44049052839999996989e-01"/>
+        <Ixx Unit="kg-mm^2" Value="1.25723049999999986426e+02"/>
+        <Iyy Unit="kg-mm^2" Value="1.24295850000000001501e+02"/>
+        <Izz Unit="kg-mm^2" Value="9.61367000000000082593e+00"/>
+        <Ixy Unit="kg-mm^2" Value="0.00000000000000000000e+00"/>
+        <Ixz Unit="kg-mm^2" Value="0.00000000000000000000e+00"/>
+        <Iyz Unit="kg-mm^2" Value="0.00000000000000000000e+00"/>
+      </MassAndInertia>
+      <FixedWithoutJoint Value="false"/>
+    </MotionBody>
+    <MotionBody Name="B003">
+      <MotionBodyObjects>
+        <Component FileId="51" Id="0" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\braço (1).prt"/>
+        <Component FileId="47" Id="0" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\esponja (1).prt"/>
+      </MotionBodyObjects>
+      <MassPropertiesOption Value="Automatic"/>
+      <MassAndInertia>
+        <TransformationMatrix>
+          <Origin>
+            <X Unit="mm" Value="5.59558828199999993558e+01"/>
+            <Y Unit="mm" Value="1.49555745099999999326e+01"/>
+            <Z Unit="mm" Value="2.62891539999999999111e+01"/>
+          </Origin>
+          <X-Axis>
+            <X Unit="mm" Value="9.65780943804383923412e-02"/>
+            <Y Unit="mm" Value="5.31525699543237695188e-01"/>
+            <Z Unit="mm" Value="8.41518331595286994684e-01"/>
+          </X-Axis>
+          <Y-Axis>
+            <X Unit="mm" Value="9.86751358076088047611e-01"/>
+            <Y Unit="mm" Value="5.96049048533008746231e-02"/>
+            <Z Unit="mm" Value="-1.50894044456450243663e-01"/>
+          </Y-Axis>
+          <Z-Axis>
+            <X Unit="mm" Value="-1.30362682623668652004e-01"/>
+            <Y Unit="mm" Value="8.44942415814533998031e-01"/>
+            <Z Unit="mm" Value="-5.18727177750173296111e-01"/>
+          </Z-Axis>
+        </TransformationMatrix>
+        <Mass Unit="kg" Value="7.74391579999999992573e-03"/>
+        <Ixx Unit="kg-mm^2" Value="4.09890000000000032099e-01"/>
+        <Iyy Unit="kg-mm^2" Value="3.48360000000000002984e-01"/>
+        <Izz Unit="kg-mm^2" Value="1.18690000000000003832e-01"/>
+        <Ixy Unit="kg-mm^2" Value="0.00000000000000000000e+00"/>
+        <Ixz Unit="kg-mm^2" Value="0.00000000000000000000e+00"/>
+        <Iyz Unit="kg-mm^2" Value="0.00000000000000000000e+00"/>
+      </MassAndInertia>
+      <FixedWithoutJoint Value="false"/>
+    </MotionBody>
+  </MotionBodies>
+
+  <Joints>
+    <Joint Name="J001" Type="Revolute">
+      <Action>
+        <SelectedMotionBody Name="B003"/>
+        <Point Type="Arc/Ellipse/SphereCenter">
+          <PointLocation FileId="0" Id="64236" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\personagemrapido.prt" Type="Edge"/>
+          <Update Type="AfterModeling"/>
+          <Offset Type="None"/>
+        </Point>
+        <OrientationType Value="Vector"/>
+        <Vector Type="Fixed">
+          <Z-Axis>
+            <X Unit="mm" Value="-1.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="-2.61835174486193802012e-16"/>
+            <Z Unit="mm" Value="0.00000000000000000000e+00"/>
+          </Z-Axis>
+          <Update Type="AfterModeling"/>
+        </Vector>
+        <TransformationMatrix>
+          <Origin>
+            <X Unit="mm" Value="5.21690848375027229622e+01"/>
+            <Y Unit="mm" Value="6.97573010052405884096e+00"/>
+            <Z Unit="mm" Value="3.24937932517093912566e+01"/>
+          </Origin>
+          <X-Axis>
+            <X Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="1.00000000000000000000e+00"/>
+          </X-Axis>
+          <Y-Axis>
+            <X Unit="mm" Value="-2.61835174486193802012e-16"/>
+            <Y Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="0.00000000000000000000e+00"/>
+          </Y-Axis>
+          <Z-Axis>
+            <X Unit="mm" Value="-1.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="-2.61835174486193802012e-16"/>
+            <Z Unit="mm" Value="0.00000000000000000000e+00"/>
+          </Z-Axis>
+        </TransformationMatrix>
+      </Action>
+      <Base>
+        <SelectedMotionBody Name="B002"/>
+        <Point Type="Fixed">
+          <Origin>
+            <X Unit="mm" Value="6.01834136591904709235e+01"/>
+            <Y Unit="mm" Value="1.12540322711048084159e+01"/>
+            <Z Unit="mm" Value="2.78707013534951606459e+01"/>
+          </Origin>
+          <Update Type="NotUpdated"/>
+        </Point>
+        <OrientationType Value="Vector"/>
+        <Vector Type="Fixed">
+          <Z-Axis>
+            <X Unit="mm" Value="-1.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="-1.83275633500105346937e-16"/>
+            <Z Unit="mm" Value="-1.94193240619468466000e-18"/>
+          </Z-Axis>
+          <Update Type="AfterModeling"/>
+        </Vector>
+        <TransformationMatrix>
+          <Origin>
+            <X Unit="mm" Value="6.01834136591904709235e+01"/>
+            <Y Unit="mm" Value="1.12540322711048084159e+01"/>
+            <Z Unit="mm" Value="2.78707013534951606459e+01"/>
+          </Origin>
+          <X-Axis>
+            <X Unit="mm" Value="-1.94193240619468466000e-18"/>
+            <Y Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="1.00000000000000000000e+00"/>
+          </X-Axis>
+          <Y-Axis>
+            <X Unit="mm" Value="-1.83275633500105346937e-16"/>
+            <Y Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="-3.55908891959714725271e-34"/>
+          </Y-Axis>
+          <Z-Axis>
+            <X Unit="mm" Value="-1.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="-1.83275633500105346937e-16"/>
+            <Z Unit="mm" Value="-1.94193240619468466000e-18"/>
+          </Z-Axis>
+        </TransformationMatrix>
+        <SnapMotionBodies Value="true"/>
+      </Base>
+      <DisplayScale Value="1.00000000000000000000e+00"/>
+    </Joint>
+    <Joint Name="J002" Type="Revolute">
+      <Action>
+        <SelectedMotionBody Name="B001"/>
+        <Point Type="Arc/Ellipse/SphereCenter">
+          <PointLocation FileId="0" Id="76789" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\engrenagemextrudada.prt" Type="Edge"/>
+          <Update Type="AfterModeling"/>
+          <Offset Type="None"/>
+        </Point>
+        <OrientationType Value="Vector"/>
+        <Vector Type="Fixed">
+          <Z-Axis>
+            <X Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="7.75313323375328307527e-16"/>
+            <Z Unit="mm" Value="-7.87576094028748126200e-16"/>
+          </Z-Axis>
+          <Update Type="AfterModeling"/>
+        </Vector>
+        <TransformationMatrix>
+          <Origin>
+            <X Unit="mm" Value="6.36690848375026519079e+01"/>
+            <Y Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="-6.24999999999986926014e+01"/>
+          </Origin>
+          <X-Axis>
+            <X Unit="mm" Value="-7.87576094028748126200e-16"/>
+            <Y Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="-1.00000000000000000000e+00"/>
+          </X-Axis>
+          <Y-Axis>
+            <X Unit="mm" Value="-7.75313323375328307527e-16"/>
+            <Y Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="6.10618238872388746321e-31"/>
+          </Y-Axis>
+          <Z-Axis>
+            <X Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="7.75313323375328307527e-16"/>
+            <Z Unit="mm" Value="-7.87576094028748126200e-16"/>
+          </Z-Axis>
+        </TransformationMatrix>
+      </Action>
+      <Base>
+        <Point Type="Arc/Ellipse/SphereCenter">
+          <PointLocation FileId="0" Id="76789" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\engrenagemextrudada.prt" Type="Edge"/>
+          <Update Type="AfterModeling"/>
+          <Offset Type="None"/>
+        </Point>
+        <OrientationType Value="Vector"/>
+        <Vector Type="Fixed">
+          <Z-Axis>
+            <X Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="7.75313323375328307527e-16"/>
+            <Z Unit="mm" Value="-7.87576094028748126200e-16"/>
+          </Z-Axis>
+          <Update Type="AfterModeling"/>
+        </Vector>
+        <TransformationMatrix>
+          <Origin>
+            <X Unit="mm" Value="6.36690848375026519079e+01"/>
+            <Y Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="-6.24999999999986926014e+01"/>
+          </Origin>
+          <X-Axis>
+            <X Unit="mm" Value="-7.87576094028748126200e-16"/>
+            <Y Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="-1.00000000000000000000e+00"/>
+          </X-Axis>
+          <Y-Axis>
+            <X Unit="mm" Value="-7.75313323375328307527e-16"/>
+            <Y Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="6.10618238872388746321e-31"/>
+          </Y-Axis>
+          <Z-Axis>
+            <X Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="7.75313323375328307527e-16"/>
+            <Z Unit="mm" Value="-7.87576094028748126200e-16"/>
+          </Z-Axis>
+        </TransformationMatrix>
+        <SnapMotionBodies Value="false"/>
+      </Base>
+      <DisplayScale Value="1.00000000000000000000e+00"/>
+      <Driver>
+        <Rotation Type="Polynomial">
+          <Polynomial>
+            <InitialDisplacement Unit="degrees" Value="0.00000000000000000000e+00"/>
+            <InitialVelocity Unit="degrees/sec" Value="3.60000000000000000000e+02"/>
+            <Acceleration Unit="degrees/sec^2" Value="0.00000000000000000000e+00"/>
+            <Jerk Unit="degrees/sec^3" Value="0.00000000000000000000e+00"/>
+          </Polynomial>
+        </Rotation>
+      </Driver>
+    </Joint>
+    <Joint Name="J003" Type="Slider">
+      <Action>
+        <SelectedMotionBody Name="B002"/>
+        <Point Type="Arc/Ellipse/SphereCenter">
+          <PointLocation FileId="0" Id="3566" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\alavancarapida.prt" Type="Edge"/>
+          <Update Type="AfterModeling"/>
+          <Offset Type="None"/>
+        </Point>
+        <OrientationType Value="Vector"/>
+        <Vector Type="Curve/Axis">
+          <Curve FileId="0" Id="627" Type="Body"/>
+          <ReverseDirection Value="false"/>
+          <CurveParameter Value="0.00000000000000000000e+00"/>
+          <LocationOption Type="ThroughPoint"/>
+          <OnCurveOption Type="Tangent"/>
+          <EdgeType Type="Extracted"/>
+          <Update Type="AfterModeling"/>
+        </Vector>
+        <TransformationMatrix>
+          <Origin>
+            <X Unit="mm" Value="6.84999999999996305178e+01"/>
+            <Y Unit="mm" Value="1.25000000000000053291e+01"/>
+            <Z Unit="mm" Value="-6.24999999999986641797e+01"/>
+          </Origin>
+          <X-Axis>
+            <X Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="-7.88258347483861597296e-16"/>
+          </X-Axis>
+          <Y-Axis>
+            <X Unit="mm" Value="-6.20813430396895327064e-31"/>
+            <Y Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="-7.87576094028748027593e-16"/>
+          </Y-Axis>
+          <Z-Axis>
+            <X Unit="mm" Value="7.88258347483861597296e-16"/>
+            <Y Unit="mm" Value="7.87576094028748027593e-16"/>
+            <Z Unit="mm" Value="1.00000000000000000000e+00"/>
+          </Z-Axis>
+        </TransformationMatrix>
+      </Action>
+      <Base>
+        <Point Type="Arc/Ellipse/SphereCenter">
+          <PointLocation FileId="0" Id="3566" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\alavancarapida.prt" Type="Edge"/>
+          <Update Type="AfterModeling"/>
+          <Offset Type="None"/>
+        </Point>
+        <OrientationType Value="Vector"/>
+        <Vector Type="Curve/Axis">
+          <Curve FileId="0" Id="627" Type="Body"/>
+          <ReverseDirection Value="false"/>
+          <CurveParameter Value="0.00000000000000000000e+00"/>
+          <LocationOption Type="ThroughPoint"/>
+          <OnCurveOption Type="Tangent"/>
+          <EdgeType Type="Extracted"/>
+          <Update Type="AfterModeling"/>
+        </Vector>
+        <TransformationMatrix>
+          <Origin>
+            <X Unit="mm" Value="6.84999999999996305178e+01"/>
+            <Y Unit="mm" Value="1.25000000000000053291e+01"/>
+            <Z Unit="mm" Value="-6.24999999999986641797e+01"/>
+          </Origin>
+          <X-Axis>
+            <X Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="-7.88258347483861597296e-16"/>
+          </X-Axis>
+          <Y-Axis>
+            <X Unit="mm" Value="-6.20813430396895327064e-31"/>
+            <Y Unit="mm" Value="1.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="-7.87576094028748027593e-16"/>
+          </Y-Axis>
+          <Z-Axis>
+            <X Unit="mm" Value="7.88258347483861597296e-16"/>
+            <Y Unit="mm" Value="7.87576094028748027593e-16"/>
+            <Z Unit="mm" Value="1.00000000000000000000e+00"/>
+          </Z-Axis>
+        </TransformationMatrix>
+        <SnapMotionBodies Value="false"/>
+      </Base>
+      <DisplayScale Value="1.00000000000000000000e+00"/>
+    </Joint>
+  </Joints>
+
+  <Contacts>
+    <Contact3D Name="G001" Type="CADContact">
+      <Action>
+        <SelectedMotionBody Name="B001"/>
+        <Body FileId="56" Id="76753" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\engrenagemextrudada.prt"/>
+      </Action>
+      <Base>
+        <SelectedMotionBody Name="B002"/>
+        <Body FileId="55" Id="3560" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\alavancarapida.prt"/>
+      </Base>
+      <Basic>
+        <ContactForceParameters>
+          <Stiffness Unit="N/mm" Value="1.00000000000000000000e+05"/>
+          <ForceExponent Value="2.00000000000000000000e+00"/>
+          <MaterialDamping Unit="N-sec/mm" Value="1.00000000000000000000e+01"/>
+          <MaxPenetrationDepth Unit="mm" Value="2.53999999999999989675e-02"/>
+        </ContactForceParameters>
+      </Basic>
+      <Advanced>
+        <ForceModel Type="Auto">
+          <ForceModelTolerance Unit="mm" Value="5.00000000000000000000e+00"/>
+        </ForceModel>
+        <ActionBodyFacetParameters>
+          <DistanceTolerance Unit="mm" Value="0.00000000000000000000e+00"/>
+          <AngleTolerance Unit="degrees" Value="2.50000000000000000000e+01"/>
+        </ActionBodyFacetParameters>
+        <BaseBodyFacetParameters>
+          <DistanceTolerance Unit="mm" Value="0.00000000000000000000e+00"/>
+          <AngleTolerance Unit="degrees" Value="2.50000000000000000000e+01"/>
+        </BaseBodyFacetParameters>
+      </Advanced>
+    </Contact3D>
+    <Contact3D Name="G003" Type="CADContact">
+      <Action>
+        <SelectedMotionBody Name="B003"/>
+        <Body FileId="51" Id="16154" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\braço (1).prt"/>
+      </Action>
+      <Base>
+        <SelectedMotionBody Name="B002"/>
+        <Body FileId="53" Id="62625" Path="C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\personagemrapido.prt"/>
+      </Base>
+      <Basic>
+        <ContactForceParameters>
+          <Stiffness Unit="N/mm" Value="1.00000000000000000000e+05"/>
+          <ForceExponent Value="2.00000000000000000000e+00"/>
+          <MaterialDamping Unit="N-sec/mm" Value="1.00000000000000000000e+01"/>
+          <MaxPenetrationDepth Unit="mm" Value="2.53999999999999989675e-02"/>
+        </ContactForceParameters>
+      </Basic>
+      <Advanced>
+        <ForceModel Type="Auto">
+          <ForceModelTolerance Unit="mm" Value="5.00000000000000000000e+00"/>
+        </ForceModel>
+        <ActionBodyFacetParameters>
+          <DistanceTolerance Unit="mm" Value="0.00000000000000000000e+00"/>
+          <AngleTolerance Unit="degrees" Value="2.50000000000000000000e+01"/>
+        </ActionBodyFacetParameters>
+        <BaseBodyFacetParameters>
+          <DistanceTolerance Unit="mm" Value="0.00000000000000000000e+00"/>
+          <AngleTolerance Unit="degrees" Value="2.50000000000000000000e+01"/>
+        </BaseBodyFacetParameters>
+      </Advanced>
+    </Contact3D>
+  </Contacts>
+
+  <Solutions>
+    <GenericSolution Name="SIMULAÇÃO-INDIVIDUAL" Status="Active" Type="DynamicAnalysis">
+      <AnalysisOptions>
+        <SolutionOptions>
+          <Objective Type="IntegratedSolve"/>
+          <WorkingDirectory Type="SimulationFolder"/>
+          <SolutionStartTime Unit="sec" Value="0.00000000000000000000e+00"/>
+          <SolutionEndTime Unit="sec" Value="1.00000000000000000000e+00"/>
+          <StepTypeDefinition Type="StepSize"/>
+          <StepSize Unit="sec" Value="1.00000000000000002082e-02"/>
+          <IncludeStaticAnalysis Value="false"/>
+        </SolutionOptions>
+        <GravityOptions Value="UserDefinedVector">
+          <GravityDirection Type="Fixed">
+            <Z-Axis>
+              <X Unit="mm" Value="0.00000000000000000000e+00"/>
+              <Y Unit="mm" Value="0.00000000000000000000e+00"/>
+              <Z Unit="mm" Value="-1.00000000000000000000e+00"/>
+            </Z-Axis>
+            <Update Type="NotUpdated"/>
+          </GravityDirection>
+          <GravityDirectionCoordinates>
+            <X Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Y Unit="mm" Value="0.00000000000000000000e+00"/>
+            <Z Unit="mm" Value="-1.00000000000000000000e+00"/>
+          </GravityDirectionCoordinates>
+          <Gravity Unit="mm/sec^2" Value="9.80664999999999963620e+03"/>
+        </GravityOptions>
+        <AdvancedSolutionOptions>
+          <UseConstraintOptimization Value="false"/>
+          <UseRestart Value="false"/>
+          <UseLinearization Value="false"/>
+          <TimeSeriesOutputParameters Value="false"/>
+          <UseNXOpenScripts Value="false"/>
+        </AdvancedSolutionOptions>
+      </AnalysisOptions>
+      <DynamicProperties>
+        <SolutionControl>
+          <IntegrationMethod Type="BDF"/>
+          <GGL Value="true"/>
+          <MaxIntegrationStep Unit="sec" Value="5.00000000000000027756e-02"/>
+          <IntegrationTolerance Value="1.00000000000000002082e-03"/>
+          <SolutionTolerance Value="1.00000000000000002082e-03"/>
+          <InitialVelocityMethod Type="QR"/>
+        </SolutionControl>
+        <OutputControl>
+          <ReactionForce Value="true"/>
+          <PrintMethod Type="Interpolated"/>
+          <PrintFrequency Value="1"/>
+        </OutputControl>
+      </DynamicProperties>
+      <SystemProperties>
+        <SolverUnits>
+          <Length Type="Meter"/>
+          <Mass Type="Kilogram"/>
+          <Force Type="Newton"/>
+        </SolverUnits>
+        <OutputControl>
+          <OutputFile Type="Binary"/>
+          <DebugFlag Value="true"/>
+          <AdvancedDebugFlag Value="false"/>
+          <PrintFirstStep Value="true"/>
+          <RestartSkip Value="1"/>
+        </OutputControl>
+        <SolutionControl>
+          <IntegerArraySize Value="5000000"/>
+          <DoubleArraySize Value="5000000"/>
+          <LUTolerance Value="1.00000000000000006228e-09"/>
+          <AssemblyTolerance Value="1.00000000000000002082e-03"/>
+          <RedundancyCheck Type="FullPivoting"/>
+          <MatrixScaling Type="Iterative"/>
+        </SolutionControl>
+        <AdvancedSolverOptions>
+          <CommandFile File=""/>
+          <CustomizedSolver File=""/>
+        </AdvancedSolverOptions>
+        <VehicleParameters>
+          <RoadHeightAdjustment Type="None"/>
+        </VehicleParameters>
+      </SystemProperties>
+    </GenericSolution>
+  </Solutions>
+
+</Simcenter3DMotion>
