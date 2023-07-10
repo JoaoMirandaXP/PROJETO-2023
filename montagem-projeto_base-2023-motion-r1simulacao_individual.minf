@@ -1,0 +1,175 @@
+Input file: C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\montagem-projeto_base-2023-motion-r1simulacao_individual.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2021
+
+
+[1764]
+Info: The Business Analytics flag has been set to Yes.
+
+Solver: Simcenter 3D Motion Version 1984 (13.0) Aug 18 2021 15:38:17 Intel Release 64bit
+Interface: RC1980MU_rc1 2021-09-17
+Hostname: LAPTOP-19BSVER6
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1276]
+Warning:  In the dynamic data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.10000000000000E-01
+  old MAX.int.step = 5.0000000000000E-02
+  new MAX.int.step = 0.10000000000000E-01
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [ 28000@pace-server2.pcc.usp.br]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.223711E-14
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X             0.32368        0.32368         0.0000    
+    Y            -0.42840E-05   -0.42840E-05     0.0000    
+    Z            -0.58833E-01   -0.58833E-01     0.0000    
+    E0            0.50501        0.50501         0.0000    
+    E1            0.49495        0.49495         0.0000    
+    E2            0.49504        0.49504         0.0000    
+    E3            0.50491        0.50491         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.22371E-14   -0.22371E-14     0.0000    
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y             0.230410E-01
+    Z             0.269170E-04
+    E0             1.55492    
+    E1            -1.58652    
+    E2             1.58622    
+    E3            -1.55521    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Velocity
+    Rel.angle      6.28319    
+
+Solution of velocities in local coordinates:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y             0.230410E-01
+    Z             0.269170E-04
+    OMEGA_XL     -0.376192E-04
+    OMEGA_YL      0.125229    
+    OMEGA_ZL      -6.28194    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =     18428
+Number of integer data in the system  =     13228
+
+
+[1310]
+Warning:  Number of constraints is greater than or equal to the number
+of generalized coordinates.
+  Number of generalized coordinates =                   15
+  Number of constraints             =                   15
+
+Solution of accelerations in local coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X             0.100617E-14
+    Y             0.169125E-03
+    Z            -0.144771    
+    OMEGAD_XL    -0.888178E-15
+    OMEGAD_YL    -0.124345E-13
+    OMEGAD_ZL     0.444089E-13
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    2
+
+Total Number of Degrees of Freedom =   13
+Number of Kinematic Constraints    =   13
+Number of Drivers                  =    1
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    0
+
+The number of symbolic factorizations of the Acceleration matrix =                    1
+
+[1349]
+  Final statistics (from DOPRI5) :
+  Number of computed steps            =                  200
+  Number of accepted steps            =                  200
+  Number of rejected steps            =                    0
+  Number of acceleration computations =                    1
+  Number of velocity computations     =                  201
+  Number of position computations     =                  200
+
+Userdef was internal
+
+    Total elapsed CPU time:   1.403000    
+    Total clock time:          1

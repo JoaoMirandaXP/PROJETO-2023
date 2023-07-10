@@ -40,4 +40,4 @@ Os problemas da simulação são:
 - [X] Vista ortográfica da mesa
 - [] Colocar todos juntos na prancha de corte 
 - [X] Juntar todos os projetos mesma mesa (Poucas constraints)
-- [] Remover os drivers da simulação e fazer o "Bond, not the James" com o eixo_m8
+- [X] Remover os drivers da simulação e fazer o "Bond, not the James" com o eixo_m8
