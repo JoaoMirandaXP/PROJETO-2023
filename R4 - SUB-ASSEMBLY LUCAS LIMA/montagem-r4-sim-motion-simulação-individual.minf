@@ -1,0 +1,397 @@
+Input file: C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R4 - SUB-ASSEMBLY LUCAS LIMA\montagem-r4-sim-motion-simulação-individual.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2021
+
+
+[1764]
+Info: The Business Analytics flag has been set to Yes.
+
+Solver: Simcenter 3D Motion Version 1984 (13.0) Aug 18 2021 15:38:17 Intel Release 64bit
+Interface: RC1980MU_rc1 2021-09-17
+Hostname: LAPTOP-19BSVER6
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1276]
+Warning:  In the dynamic data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.10000000000000E-01
+  old MAX.int.step = 5.0000000000000E-02
+  new MAX.int.step = 0.10000000000000E-01
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [ 28000@pace-server2.pcc.usp.br]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+[1134]
+Warning:  Prior to assembly the number of constraints, drivers and
+initial conditions is not equal to the number of generalized
+coordinates.  The assembly algorithm will be executed but the
+result will represent one of several possible solutions.
+Number of constraints, drivers, I.C's =                   27
+Number of generalized coordinates     =                   29
+
+[1516]
+Warning: Prior to the assembly analysis one or more constraints are not
+satisfied within the specified assembly tolerance.  The assembly analysis will
+attempt to adjust the model to achieve this tolerance across all constraints.
+If assembly analysis fails, or if the model assembles to an undesired position
+the following elements whose constraint residuals exceed the specified assembly
+tolerance should be checked:
+                                 Constraint
+.........Element Type.........  ..Number..  ..Violation..  ........Name........
+ Revolute joint                     1       -.8014329E-02
+J001
+ Revolute joint                     2       -.4278302E-02
+J001
+ Revolute joint                     3       0.4623092E-02
+J001
+
+Results achieved by the model assembly process without drivers:
+
+  Number of function evaluations =     2
+  Maximum constraint violation   =   0.112237E-14
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X             0.68669E-01    0.68669E-01     0.0000    
+    Y             0.69295E-06    0.69295E-06     0.0000    
+    Z            -0.62507E-01   -0.62507E-01     0.0000    
+    E0            0.82932        0.82932         0.0000    
+    E1            0.55877        0.55877         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: B002
+    Coordinate    New Value     Original Value  Difference
+    X             0.70554E-01    0.70554E-01     0.0000    
+    Y             0.12687E-01    0.12687E-01     0.0000    
+    Z             0.25936E-01    0.21312E-01    0.46231E-02
+    E0           -0.12953E-01   -0.12953E-01    0.13479E-14
+    E1            0.46844        0.46844       -0.20040E-13
+    E2            0.88340        0.88340        0.10547E-13
+    E3           -0.20849E-02   -0.20849E-02     0.0000    
+
+ Element: B003
+    Coordinate    New Value     Original Value  Difference
+    X             0.63970E-01    0.55956E-01    0.80143E-02
+    Y             0.19234E-01    0.14956E-01    0.42783E-02
+    Z             0.26289E-01    0.26289E-01     0.0000    
+    E0            0.39920        0.39920         0.0000    
+    E1           -0.62364       -0.62364       -0.99920E-14
+    E2           -0.60864       -0.60864        0.53291E-14
+    E3           -0.28508       -0.28508        0.10880E-13
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: MOTION_J002_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.23315E-14    0.23315E-14     0.0000    
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.233147E-14
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X             0.68669E-01    0.68669E-01     0.0000    
+    Y             0.69295E-06    0.69295E-06     0.0000    
+    Z            -0.62507E-01   -0.62507E-01     0.0000    
+    E0            0.82932        0.82932         0.0000    
+    E1            0.55877        0.55877         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: B002
+    Coordinate    New Value     Original Value  Difference
+    X             0.70554E-01    0.70554E-01     0.0000    
+    Y             0.12687E-01    0.12687E-01     0.0000    
+    Z             0.25936E-01    0.25936E-01     0.0000    
+    E0           -0.12953E-01   -0.12953E-01     0.0000    
+    E1            0.46844        0.46844         0.0000    
+    E2            0.88340        0.88340         0.0000    
+    E3           -0.20849E-02   -0.20849E-02     0.0000    
+
+ Element: B003
+    Coordinate    New Value     Original Value  Difference
+    X             0.63970E-01    0.63970E-01     0.0000    
+    Y             0.19234E-01    0.19234E-01     0.0000    
+    Z             0.26289E-01    0.26289E-01     0.0000    
+    E0            0.39920        0.39920         0.0000    
+    E1           -0.62364       -0.62364         0.0000    
+    E2           -0.60864       -0.60864         0.0000    
+    E3           -0.28508       -0.28508         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: MOTION_J002_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.23315E-14    0.23315E-14     0.0000    
+
+Ignoring Initial conditions, the following were chosen
+as independent coordinates:
+
+
+ Element: B002
+    Coordinate:  Z         
+
+ Element: B003
+    Coordinate:  E3        
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y             0.467150E-04
+    Z             0.435393E-05
+    E0            -1.75542    
+    E1             2.60540    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: MOTION_J002_RZ
+    Coordinate    Velocity
+    Rel.angle      6.28319    
+
+Solution of velocities in local coordinates:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y             0.467150E-04
+    Z             0.435393E-05
+    OMEGA_XL       6.28319    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =     76530
+Number of integer data in the system  =     44727
+
+
+Solution of accelerations in local coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X            -0.104083E-16
+    Y            -0.273566E-04
+    Z             0.293519E-03
+    OMEGAD_XL     0.497380E-13
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X            -0.724538E-11
+    Y            -0.721360E-11
+    Z             -9159.37    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X             0.294149E-10
+    Y              139448.    
+    Z              170187.    
+    OMEGAD_XL     0.217058E+07
+    OMEGAD_YL     0.221771E+08
+    OMEGAD_ZL    -0.292988E+07
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    4
+
+Total Number of Degrees of Freedom =   25
+Number of Kinematic Constraints    =   23
+Number of Drivers                  =    1
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    2
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     50
+  Current simulation time =   0.161583E-01
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     73
+  Current simulation time =   0.200645E-01
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     63
+  Current simulation time =   0.304296
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     73
+  Current simulation time =   0.304296
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     50
+  Current simulation time =   0.330626
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     65
+  Current simulation time =   0.534090
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     72
+  Current simulation time =   0.533081
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     71
+  Current simulation time =   0.535595
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     65
+  Current simulation time =   0.541949
+
+The number of symbolic factorizations of the Acceleration matrix =                    1
+
+The number of symbolic factorizations of BDF Jacobian matrix =                   10
+
+[1441]
+Final integrator statistics:
+  Number of steps                 =              1058444
+  Number of f-s                   =              5153128
+  Number of j-s                   =               554577
+  Ratio of f-s/steps              =  4.8685882295143
+  Ratio of j-s/steps              = 0.52395497541674
+  Current time                    =  1.0000000000000
+  Total velocity computations     =                    0
+  Total position computations     =                    0
+Average Integration Order =   1.035521954869    
+Average Step Size         =  0.9448188003269E-06
+
+Userdef was internal
+
+    Total elapsed CPU time:   2575.158    
+    Total clock time:       2575

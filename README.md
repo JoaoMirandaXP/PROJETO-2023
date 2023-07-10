@@ -28,3 +28,11 @@ Os parafusos foram removidos e substituídos por "bastões universais"
 Joints -> Não usar dois Revolutes em um único Motion Body, prefira o Contact 3D
 
 OBS:O render com contact 3d das bevel-gears é muito longo...
+## R4 
+- [X] Montagem -> Apenas reoganizar para caber na mesa
+- [X] Simulação Individual
+
+Os problemas da simulação são:
+	- [] Contact 3d entre o braço e o tronco leva muito tempo no solve
+	- [] Contact 3d entre o braço e o tronco não encaixa corretamente
+	- [] [BUG] Por algum motivo, na segunda "hélice" da engrenagem o personagem cai mais que o esperado
