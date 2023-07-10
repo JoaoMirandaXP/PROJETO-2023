@@ -1,0 +1,391 @@
+Input file: C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R2 - SUB-ASSEMBLY ANTONIO LUCAS SIQUEIRA\montagem-r2-sim-motion-solution001.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2021
+
+
+[1764]
+Info: The Business Analytics flag has been set to Yes.
+
+Solver: Simcenter 3D Motion Version 1984 (13.0) Aug 18 2021 15:38:17 Intel Release 64bit
+Interface: RC1980MU_rc1 2021-09-17
+Hostname: LAPTOP-19BSVER6
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1276]
+Warning:  In the dynamic data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.10000000000000E-01
+  old MAX.int.step = 5.0000000000000E-02
+  new MAX.int.step = 0.10000000000000E-01
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [ 28000@pace-server2.pcc.usp.br]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+[1134]
+Warning:  Prior to assembly the number of constraints, drivers and
+initial conditions is not equal to the number of generalized
+coordinates.  The assembly algorithm will be executed but the
+result will represent one of several possible solutions.
+Number of constraints, drivers, I.C's =                   41
+Number of generalized coordinates     =                   44
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.309197E-13
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X             0.32752        0.32752         0.0000    
+    Y             0.11073        0.11073         0.0000    
+    Z             0.15543        0.15543         0.0000    
+    E0            0.31202E-02    0.31202E-02     0.0000    
+    E1            0.70710        0.70710         0.0000    
+    E2            0.70710        0.70710         0.0000    
+    E3            0.31203E-02    0.31203E-02     0.0000    
+
+ Element: B002
+    Coordinate    New Value     Original Value  Difference
+    X             0.32764        0.32764         0.0000    
+    Y             0.15146        0.15146         0.0000    
+    Z             0.19942        0.19942         0.0000    
+    E0           -0.68455E-03   -0.68455E-03     0.0000    
+    E1            0.70736        0.70736         0.0000    
+    E2            0.70685        0.70685         0.0000    
+    E3           -0.33822E-03   -0.33822E-03     0.0000    
+
+ Element: B003
+    Coordinate    New Value     Original Value  Difference
+    X             0.36036        0.36036         0.0000    
+    Y             0.11073        0.11073         0.0000    
+    Z             0.10700        0.10700         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: B004
+    Coordinate    New Value     Original Value  Difference
+    X             0.30503        0.30503         0.0000    
+    Y             0.11073        0.11073         0.0000    
+    Z             0.10700        0.10700         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1           -0.25509E-06   -0.25509E-06     0.0000    
+    E2            0.40250E-08    0.40250E-08     0.0000    
+    E3           -0.21900E-07   -0.21900E-07     0.0000    
+
+ Element: B005
+    Coordinate    New Value     Original Value  Difference
+    X             0.32762        0.32762         0.0000    
+    Y             0.13533        0.13533         0.0000    
+    Z             0.10845        0.10845         0.0000    
+    E0            0.53749        0.53749         0.0000    
+    E1            0.84327        0.84327         0.0000    
+    E2            0.25208E-02    0.25208E-02     0.0000    
+    E3           -0.13923E-03   -0.13923E-03     0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: MOTION_J002_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.84703E-20    0.84703E-20     0.0000    
+
+ Element: MOTION_J003_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle      0.0000         0.0000         0.0000    
+
+Ignoring Initial conditions, the following were chosen
+as independent coordinates:
+
+
+ Element: B005
+    Coordinate:  E2        
+
+ Element: B002
+    Coordinate:  Z         
+
+ Element: B001
+    Coordinate:  E2        
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y             0.188467E-12
+    Z            -0.272686E-10
+    E0             0.00000    
+    E1             3.14159    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B004
+    Coordinate    Velocity
+    X              0.00000    
+    Y             0.251516E-09
+    Z            -0.184939E-08
+    E0            0.801389E-06
+    E1             3.14159    
+    E2            0.688009E-07
+    E3            0.126448E-07
+
+ Element: B005
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: MOTION_J002_RZ
+    Coordinate    Velocity
+    Rel.angle      6.28319    
+
+ Element: MOTION_J003_RZ
+    Coordinate    Velocity
+    Rel.angle      6.28319    
+
+Solution of velocities in local coordinates:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y             0.188467E-12
+    Z            -0.272686E-10
+    OMEGA_XL       6.28319    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B004
+    Coordinate    Velocity
+    X              0.00000    
+    Y             0.251516E-09
+    Z            -0.184939E-08
+    OMEGA_XL       6.28319    
+    OMEGA_YL      0.275204E-06
+    OMEGA_ZL      0.505793E-07
+
+ Element: B005
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =    126476
+Number of integer data in the system  =     73009
+
+
+Solution of accelerations in local coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X             0.619575E-22
+    Y            -0.279831E-17
+    Z              0.00000    
+    OMEGAD_XL     0.280901E-20
+    OMEGAD_YL     0.334563E-15
+    OMEGAD_ZL    -0.379083E-13
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z             -9.80665    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X            -0.138778E-16
+    Y             0.171336E-09
+    Z             0.118450E-11
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B004
+    Coordinate    Acceleration
+    X            -0.168039E-16
+    Y             0.116201E-07
+    Z             0.158032E-08
+    OMEGAD_XL     0.164971E-18
+    OMEGAD_YL     0.896181E-14
+    OMEGAD_ZL     0.105523E-14
+
+ Element: B005
+    Coordinate    Acceleration
+    X            -0.835331E-03
+    Y             0.103238E-17
+    Z            -0.758960E-05
+    OMEGAD_XL    -0.326871E-02
+    OMEGAD_YL     0.336454    
+    OMEGAD_ZL     0.722404    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    6
+
+Total Number of Degrees of Freedom =   38
+Number of Kinematic Constraints    =   35
+Number of Drivers                  =    2
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    3
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    108
+  Current simulation time =   0.474493E-02
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     45
+  Current simulation time =   0.181072E-01
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    115
+  Current simulation time =   0.460899
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    108
+  Current simulation time =   0.474832
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    105
+  Current simulation time =   0.982888
+
+The number of symbolic factorizations of the Acceleration matrix =                    1
+
+The number of symbolic factorizations of BDF Jacobian matrix =                    6
+
+[1441]
+Final integrator statistics:
+  Number of steps                 =                26758
+  Number of f-s                   =               150167
+  Number of j-s                   =                19938
+  Ratio of f-s/steps              =  5.6120412586890
+  Ratio of j-s/steps              = 0.74512295388295
+  Current time                    =  1.0000000000000
+  Total velocity computations     =                    0
+  Total position computations     =                    0
+Average Integration Order =   1.003699828089    
+Average Step Size         =  0.3737318504152E-04
+
+Userdef was internal
+
+    Total elapsed CPU time:   196.0290    
+    Total clock time:        196

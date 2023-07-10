@@ -1,0 +1,685 @@
+Input file: C:\Users\Ana's Office\João\PROJETO 2023\PROJETO-2023\R1 -SUB-ASSEMBLY JOÃO V C² MIRANDA\montagem-r1-sim-motion-simulacao_individual.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2021
+
+
+[1764]
+Info: The Business Analytics flag has been set to Yes.
+
+Solver: Simcenter 3D Motion Version 1984 (13.0) Aug 18 2021 15:38:17 Intel Release 64bit
+Interface: RC1980MU_rc1 2021-09-17
+Hostname: LAPTOP-19BSVER6
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1655]
+Warning: The static friction coefficient is zero in
+friction element , "J004_FRICTION",
+This element will not be allowed to lock up.
+
+[1655]
+Warning: The static friction coefficient is zero in
+friction element , "J005_FRICTION",
+This element will not be allowed to lock up.
+
+[1655]
+Warning: The static friction coefficient is zero in
+friction element , "J006_FRICTION",
+This element will not be allowed to lock up.
+
+[1655]
+Warning: The static friction coefficient is zero in
+friction element , "J007_FRICTION",
+This element will not be allowed to lock up.
+
+[1276]
+Warning:  In the dynamic data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.10000000000000E-01
+  old MAX.int.step = 5.0000000000000E-02
+  new MAX.int.step = 0.10000000000000E-01
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [ 28000@pace-server2.pcc.usp.br]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+[1134]
+Warning:  Prior to assembly the number of constraints, drivers and
+initial conditions is not equal to the number of generalized
+coordinates.  The assembly algorithm will be executed but the
+result will represent one of several possible solutions.
+Number of constraints, drivers, I.C's =                   60
+Number of generalized coordinates     =                   65
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.551920E-13
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X            -0.10007E-02   -0.10007E-02     0.0000    
+    Y             0.72064E-01    0.72064E-01     0.0000    
+    Z             0.89000E-01    0.89000E-01     0.0000    
+    E0            0.70370        0.70370         0.0000    
+    E1            0.70370        0.70370         0.0000    
+    E2           -0.69229E-01   -0.69229E-01     0.0000    
+    E3           -0.69381E-01   -0.69381E-01     0.0000    
+
+ Element: B002
+    Coordinate    New Value     Original Value  Difference
+    X            -0.29516E-02   -0.29516E-02     0.0000    
+    Y             0.62256E-01    0.62256E-01     0.0000    
+    Z             0.89000E-01    0.89000E-01     0.0000    
+    E0            0.70370        0.70370         0.0000    
+    E1            0.70370        0.70370         0.0000    
+    E2           -0.69229E-01   -0.69229E-01     0.0000    
+    E3           -0.69381E-01   -0.69381E-01     0.0000    
+
+ Element: B003
+    Coordinate    New Value     Original Value  Difference
+    X            -0.49932E-02   -0.49932E-02     0.0000    
+    Y             0.51993E-01    0.51993E-01     0.0000    
+    Z             0.88791E-01    0.88791E-01     0.0000    
+    E0            0.61595        0.61595         0.0000    
+    E1            0.78166        0.78166         0.0000    
+    E2           -0.76945E-01   -0.76945E-01     0.0000    
+    E3           -0.60697E-01   -0.60697E-01     0.0000    
+
+ Element: B004
+    Coordinate    New Value     Original Value  Difference
+    X            -0.82016E-02   -0.82016E-02     0.0000    
+    Y             0.35863E-01    0.35863E-01     0.0000    
+    Z             0.87994E-01    0.87994E-01     0.0000    
+    E0            0.50000        0.50000         0.0000    
+    E1           -0.50000       -0.50000         0.0000    
+    E2           -0.50000       -0.50000         0.0000    
+    E3           -0.50000       -0.50000         0.0000    
+
+ Element: BASE_PERSONAGEM
+    Coordinate    New Value     Original Value  Difference
+    X             0.80248E-02    0.80248E-02     0.0000    
+    Y             0.82713E-01    0.82713E-01     0.0000    
+    Z             0.54458E-01    0.54458E-01     0.0000    
+    E0           -0.18147E-01   -0.18147E-01     0.0000    
+    E1            0.77204        0.77204         0.0000    
+    E2            0.63515        0.63515         0.0000    
+    E3           -0.14595E-01   -0.14595E-01     0.0000    
+
+ Element: EIXO
+    Coordinate    New Value     Original Value  Difference
+    X             0.72669E-02    0.72669E-02     0.0000    
+    Y             0.55668E-01    0.55668E-01     0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0            0.70711        0.70711         0.0000    
+    E1            0.70711        0.70711         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: HGEAR1
+    Coordinate    New Value     Original Value  Difference
+    X             0.74018E-02    0.74018E-02     0.0000    
+    Y             0.49995E-01    0.49995E-01     0.0000    
+    Z            -0.67818E-03   -0.67818E-03     0.0000    
+    E0            0.54418        0.54418         0.0000    
+    E1            0.45056        0.45056         0.0000    
+    E2            0.44659        0.44659         0.0000    
+    E3            0.54901        0.54901         0.0000    
+
+ Element: HGEAR2
+    Coordinate    New Value     Original Value  Difference
+    X             0.74018E-02    0.74018E-02     0.0000    
+    Y             0.11575        0.11575         0.0000    
+    Z             0.67818E-03    0.67818E-03     0.0000    
+    E0            0.44659        0.44659         0.0000    
+    E1            0.54901        0.54901         0.0000    
+    E2            0.54418        0.54418         0.0000    
+    E3            0.45056        0.45056         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.22399E-13    0.22399E-13     0.0000    
+
+ Element: MOTION_J002_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.20817E-14    0.20817E-14     0.0000    
+
+Ignoring Initial conditions, the following were chosen
+as independent coordinates:
+
+
+ Element: B002
+    Coordinate:  E3        
+
+ Element: B001
+    Coordinate:  E2        
+
+ Element: B003
+    Coordinate:  E3        
+
+ Element: BASE_PERSONAGEM
+    Coordinate:  E2        
+
+ Element: B004
+    Coordinate:  E0        
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B004
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: BASE_PERSONAGEM
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: EIXO
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: HGEAR1
+    Coordinate    Velocity
+    X            -0.426112E-02
+    Y              0.00000    
+    Z            -0.847590E-03
+    E0            -1.40302    
+    E1             1.72478    
+    E2             1.70958    
+    E3            -1.41549    
+
+ Element: HGEAR2
+    Coordinate    Velocity
+    X             0.426112E-02
+    Y              0.00000    
+    Z            -0.847590E-03
+    E0            -1.70958    
+    E1             1.41549    
+    E2             1.40302    
+    E3            -1.72478    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Velocity
+    Rel.angle      6.28319    
+
+ Element: MOTION_J002_RZ
+    Coordinate    Velocity
+    Rel.angle      6.28319    
+
+Solution of velocities in local coordinates:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B004
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: BASE_PERSONAGEM
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: EIXO
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: HGEAR1
+    Coordinate    Velocity
+    X            -0.426112E-02
+    Y              0.00000    
+    Z            -0.847590E-03
+    OMEGA_XL       6.28294    
+    OMEGA_YL     -0.556110E-01
+    OMEGA_ZL      0.111022E-14
+
+ Element: HGEAR2
+    Coordinate    Velocity
+    X             0.426112E-02
+    Y              0.00000    
+    Z            -0.847590E-03
+    OMEGA_XL       6.28294    
+    OMEGA_YL     -0.556110E-01
+    OMEGA_ZL      0.199840E-14
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =    307082
+Number of integer data in the system  =    172440
+
+
+Solution of accelerations in local coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X             0.163133E-11
+    Y            -0.320844E-12
+    Z            -0.770116E-26
+    OMEGAD_XL    -0.700362E-13
+    OMEGAD_YL     0.327504E-09
+    OMEGAD_ZL     0.665302E-14
+
+ Element: B002
+    Coordinate    Acceleration
+    X             0.118396E-11
+    Y            -0.231852E-12
+    Z            -0.112490E-24
+    OMEGAD_XL     0.867388E-13
+    OMEGAD_YL    -0.405608E-09
+    OMEGAD_ZL    -0.823966E-14
+
+ Element: B003
+    Coordinate    Acceleration
+    X            -0.611120E-12
+    Y             0.125209E-12
+    Z            -0.254091E-24
+    OMEGAD_XL    -0.292451E-14
+    OMEGAD_YL     0.282698E-10
+    OMEGAD_ZL    -0.679904E-11
+
+ Element: B004
+    Coordinate    Acceleration
+    X            -0.142130E-12
+    Y             0.319217E-13
+    Z            -0.397212E-24
+    OMEGAD_XL    -0.498243E-13
+    OMEGAD_YL     0.809092E-23
+    OMEGAD_ZL    -0.779088E-23
+
+ Element: BASE_PERSONAGEM
+    Coordinate    Acceleration
+    X            -0.952501E-16
+    Y            -0.452280E-15
+    Z            -0.330329E-15
+    OMEGAD_XL    -0.308018E-15
+    OMEGAD_YL     0.277815E-13
+    OMEGAD_ZL     0.596045E-12
+
+ Element: EIXO
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: HGEAR1
+    Coordinate    Acceleration
+    X            -0.532557E-02
+    Y             0.138778E-16
+    Z             0.267734E-01
+    OMEGAD_XL     0.444089E-13
+    OMEGAD_YL     0.106581E-13
+    OMEGAD_ZL    -0.532907E-14
+
+ Element: HGEAR2
+    Coordinate    Acceleration
+    X            -0.532557E-02
+    Y             0.425007E-15
+    Z            -0.267734E-01
+    OMEGAD_XL     0.266454E-14
+    OMEGAD_YL     0.195399E-13
+    OMEGAD_ZL    -0.976996E-14
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    9
+
+Total Number of Degrees of Freedom =   56
+Number of Kinematic Constraints    =   51
+Number of Drivers                  =    2
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    5
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    103
+  Current simulation time =   0.127300E-01
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    134
+  Current simulation time =   0.103616
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    171
+  Current simulation time =   0.988295E-01
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    164
+  Current simulation time =   0.140456
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    154
+  Current simulation time =   0.236443
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    174
+  Current simulation time =   0.258565
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    166
+  Current simulation time =   0.340491
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    171
+  Current simulation time =   0.336456
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    126
+  Current simulation time =   0.362425
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    109
+  Current simulation time =   0.555519
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    172
+  Current simulation time =   0.738085
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    151
+  Current simulation time =   0.762985
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    154
+  Current simulation time =    1.18420
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    165
+  Current simulation time =    1.22675
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    150
+  Current simulation time =    1.23798
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    168
+  Current simulation time =    1.26870
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    139
+  Current simulation time =    1.38776
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    165
+  Current simulation time =    1.38471
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    140
+  Current simulation time =    1.38516
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    168
+  Current simulation time =    1.43018
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    151
+  Current simulation time =    1.56389
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    175
+  Current simulation time =    1.61875
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    172
+  Current simulation time =    1.64409
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    142
+  Current simulation time =    1.86132
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    168
+  Current simulation time =    1.86313
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    169
+  Current simulation time =    1.89661
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    155
+  Current simulation time =    1.90114
+
+The number of symbolic factorizations of the Acceleration matrix =                    1
+
+The number of symbolic factorizations of BDF Jacobian matrix =                   28
+
+[1441]
+Final integrator statistics:
+  Number of steps                 =                 8051
+  Number of f-s                   =                44206
+  Number of j-s                   =                 4739
+  Ratio of f-s/steps              =  5.4907464911191
+  Ratio of j-s/steps              = 0.58862253136256
+  Current time                    =  2.0000000000000
+  Total velocity computations     =                    0
+  Total position computations     =                    0
+Average Integration Order =   1.298348031300    
+Average Step Size         =  0.2488069782627E-03
+
+Userdef was internal
+
+    Total elapsed CPU time:   38.60700    
+    Total clock time:         38
